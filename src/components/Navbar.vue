@@ -5,7 +5,9 @@
                 <span class="font-weight-normal">МАСТЕРГУР </span>
                 <span class="font-weight-light">Ремонт рулевых реек</span>
             </v-toolbar-title>
-          
+                
+                <span class="font-weight-light" v-text="title_1"></span>
+
 
             <v-spacer></v-spacer>
             <a class="font-weight-light red--text" href="tel:+79060560507"><span class="font-weight-light">+79060560507</span></a>
@@ -32,6 +34,7 @@
     export default {
         data() {
             return {
+                title_1:'Ремонт рулевых реек в Москве в СВАО'
                 
             }
         }
